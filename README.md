@@ -1,17 +1,6 @@
-# antd-img-crop
+# antd-img-crop-v2
 
 An image cropper for Ant Design [Upload](https://ant.design/components/upload/).
-
-[![npm](https://img.shields.io/npm/v/antd-img-crop.svg?style=flat-square)](https://www.npmjs.com/package/antd-img-crop)
-[![npm](https://img.shields.io/npm/dt/antd-img-crop?style=flat-square)](https://www.npmtrends.com/antd-img-crop)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/antd-img-crop?style=flat-square)](https://bundlephobia.com/result?p=antd-img-crop)
-[![GitHub](https://img.shields.io/github/license/nanxiaobei/antd-img-crop?style=flat-square)](https://github.com/nanxiaobei/antd-img-crop/blob/main/LICENSE)
-
-English | [简体中文](./README.zh-CN.md)
-
-## Demo
-
-[![Edit antd-img-crop](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/antd-img-crop-4qoom5p9x4?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Install
 
@@ -25,12 +14,12 @@ yarn add antd-img-crop
 
 ```jsx harmony
 import ImgCrop from 'antd-img-crop';
-import { Upload } from 'antd';
+import {Upload} from 'antd';
 
 const Demo = () => (
-  <ImgCrop>
-    <Upload>+ Add image</Upload>
-  </ImgCrop>
+    <ImgCrop>
+        <Upload>+ Add image</Upload>
+    </ImgCrop>
 );
 ```
 
@@ -61,22 +50,10 @@ const Demo = () => (
 
 To prevent overwriting the custom styles to `antd`, `antd-img-crop` does not import the style files of components.
 
-Therefore, if your project configured `babel-plugin-import` and no `Modal` or `Slider` were used, you need to import the styles manually:
+Therefore, if your project configured `babel-plugin-import` and no `Modal` or `Slider` were used, you need to import the
+styles manually:
 
 ```js
 import 'antd/es/modal/style';
 import 'antd/es/slider/style';
 ```
-
-## License
-
-[MIT License](https://github.com/nanxiaobei/antd-img-crop/blob/main/LICENSE) (c) [nanxiaobei](https://lee.so/)
-
-[react-easy-crop]: https://github.com/ricardo-ch/react-easy-crop#props
-[existing props]: https://github.com/nanxiaobei/antd-img-crop/blob/main/src/index.jsx#L78-L94
-
-## FUTAKE
-
-Try [**FUTAKE**](https://sotake.com/f) in WeChat. A mini app for your inspiration moments. 🌈
-
-![FUTAKE](https://s3.jpg.cm/2021/09/21/IFG3wi.png)
